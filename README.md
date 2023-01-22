@@ -12,9 +12,7 @@ time, datetime, pytz 라이브러리 : timezone을 표기하기 위해 사용됨
 
 - kafdrop을 이용해서 topic을 하나 만들자
     - topic 이름은 payment이다
-    
-    
-![스크린샷 2023-01-22 오전 11 54 44](https://user-images.githubusercontent.com/58240677/213898455-7750f419-aa7e-42d8-8c5d-74dadb35e2d5.png)
+        ![스크린샷 2023-01-22 오전 11 54 44](https://user-images.githubusercontent.com/58240677/213898455-7750f419-aa7e-42d8-8c5d-74dadb35e2d5.png)
 
     
 
@@ -92,9 +90,9 @@ cosumer가 메세지를 받아와서 payment 타입을 체크한 후
 - partition : 2, replication factor : 1 로 아래 2개의 topic을 kafdrop을 사용하여 생성
 - fraud_payments
 - legit_payments
-    
-    ![스크린샷 2023-01-22 오전 11.08.31.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c0a1a85-4de9-47a8-83b4-d75a83fe8a4d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.08.31.png)
-    
+        
+    ![스크린샷 2023-01-22 오전 11 55 19](https://user-images.githubusercontent.com/58240677/213898466-5e38f4e2-bdab-43b3-bcf8-8ec5e00862ce.png)
+
 
 파이썬 파일
 
@@ -200,10 +198,4 @@ for message in consumer:
 
 - 실행 결과
     
-    ![스크린샷 2023-01-22 오전 11.50.50.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/243d6349-62b8-49be-bd9a-c0296dd8c05d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.50.50.png)
-    
-    ![스크린샷 2023-01-22 오전 11.51.03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff660a31-d646-4a19-b56e-3f1796d00f8f/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.51.03.png)
-    
-    ![스크린샷 2023-01-22 오전 11.51.16.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/057fe7d5-03d6-4962-b4f5-7f5ba4444f62/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.51.16.png)
-    
-    ![스크린샷 2023-01-22 오전 11.51.25.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/108c8839-c28a-44bc-8203-cc8827dc3444/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.51.25.png)
+![스크린샷 2023-01-22 오전 11 55 42](https://user-images.githubusercontent.com/58240677/213898484-c0d48f6d-a7ae-450f-ba35-b21d61ac8091.png)
