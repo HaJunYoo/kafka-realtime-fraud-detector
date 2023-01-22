@@ -13,7 +13,7 @@ time, datetime, pytz 라이브러리 : timezone을 표기하기 위해 사용됨
 - kafdrop을 이용해서 topic을 하나 만들자
     - topic 이름은 payment이다
     
-    ![스크린샷 2023-01-22 오전 10.37.54.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39969a22-a29c-4a74-8e16-a33885ef2ba6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.37.54.png)
+    ![스크린샷 2023-01-22 오전 10.37.54.png](https://www.notion.so/innovative-tortoise-rec-django/kafka-1f7aba8bc8224cefb05083960e486515#5c14a3becb044945ba050ae79fd57814)
     
 
 1. payment_producer.py
